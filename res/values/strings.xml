@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Minesweeper</string>
+
+    <string name="tutorial1">Want to see awesome tutorial?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="never">Never</string>
+    <string name="help0">See the flag icon up there?</string>
+    <string name="help1">"It means you're in flag mode where you can flag tiles by touching them. Try to click it to switch to mine mode"</string>
+    <string name="help2">Welcome to mine mode! Time to dig some mines now.</string>
+    <string name="help3">You can also longclick tiles to mark them flagged!</string>
+    <string name="tutorial2">Tutorial</string>
+    <string name="highscores">Highscores</string>
+    <string name="beginner">Beginner</string>
+    <string name="easy">Easy</string>
+    <string name="intermediate">Intermediate</string>
+    <string name="expert">Expert</string>
+    <string name="submithighscore">You rule! Do you want to submit highscore?</string>
+    <string name="localonly">Local only</string>
+    <string name="postonline">Post online</string>
+    <string name="new1">New</string>
+    <string name="options">Options</string>
+    <string name="zoom">Zoom</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="difficultylevel">Difficulty level</string>
+    <string name="enablehaptic">Enable haptic feedback</string>
+    <string name="reset">Reset</string>
+    <string name="ok">OK</string>
+
+
+    <string name="action_settings">Settings</string>
+</resources>

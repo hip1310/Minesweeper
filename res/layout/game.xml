@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/scrollView">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/main_container">
+
+        <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+            <LinearLayout android:gravity="left" android:layout_width="match_parent" android:layout_height="match_parent"  android:layout_weight="2">
+                <TextView android:gravity="center" android:id="@id/mineslabel" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Mines" />
+            </LinearLayout>
+
+            <LinearLayout android:gravity="left" android:layout_width="match_parent" android:layout_height="match_parent"  android:layout_weight="2">
+                <TextView android:gravity="center" android:id="@id/mines" android:layout_width="match_parent" android:layout_height="match_parent" android:text="015" />
+            </LinearLayout>
+
+            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent"
+            android:layout_weight="1">
+                <Button android:id="@+id/gamestate" android:layout_width="25.0pt" android:layout_height="60dp" android:background="@drawable/smile" android:onClick="onNewGame" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="fill_parent" />
+
+                <Button android:id="@id/flag" android:layout_width="25.0pt" android:layout_height="60dp" android:background="@drawable/flag_transparent"
+                android:onClick="onRedFlag" />
+            </LinearLayout>
+
+            <LinearLayout android:gravity="right" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="2">
+                <TextView android:gravity="center" android:id="@id/timelabel" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Time" />
+            </LinearLayout>
+
+            <LinearLayout android:gravity="right" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="2">
+                <TextView android:gravity="center" android:id="@id/time" android:layout_width="match_parent" android:layout_height="match_parent" android:text="0" />
+            </LinearLayout>
+
+    </TableRow>
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+
+    </LinearLayout>
+</ScrollView>

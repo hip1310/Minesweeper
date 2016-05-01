@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <TableRow
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grid"
+            android:id="@+id/textView7"
+            android:textSize="20dp" />
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="20px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/gridtext"
+            android:textSize="20dp" />
+    </TableRow>
+
+    <SeekBar
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:id="@+id/gridbar"
+        android:max="12" />
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="30dp" />
+
+    <TableRow
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mines"
+            android:id="@+id/textView9"
+            android:textSize="20dp" />
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="20px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/minetext"
+            android:textSize="20dp" />
+    </TableRow>
+
+    <SeekBar
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:id="@+id/minebar"
+        android:max="50" />
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="10dp" />
+
+    <TableRow
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ok"
+            android:id="@+id/cok"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/ccancel"
+            android:layout_weight="1" />
+    </TableRow>
+
+</LinearLayout>

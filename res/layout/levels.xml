@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beginner"
+        android:id="@+id/beginner"
+        android:background="@color/blueHeader"
+        android:textColor="@color/white"
+        android:onClick="onBeginner" />
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intermediate"
+        android:id="@+id/intermediate"
+        android:textColor="@color/white"
+        android:background="@color/blueHeader"
+        android:onClick="onIntermediate" />
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expert"
+        android:id="@+id/expert"
+        android:background="@color/blueHeader"
+        android:textColor="@color/white"
+        android:onClick="onExpert" />
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom"
+        android:id="@+id/custom"
+        android:textColor="@color/white"
+        android:background="@color/blueHeader"
+        android:onClick="onCustom" />
+
+</LinearLayout>

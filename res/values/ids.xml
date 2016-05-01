@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="topcontainer">false</item>
+    <item type="id" name="mines">false</item>
+    <item type="id" name="mineslabel">false</item>
+    <item type="id" name="newgame">false</item>
+    <item type="id" name="options">false</item>
+    <item type="id" name="zoom">false</item>
+    <item type="id" name="flag">false</item>
+    <item type="id" name="time">false</item>
+    <item type="id" name="timelabel">false</item>
+    <item type="id" name="container">false</item>
+    <item type="id" name="mw">false</item>
+    <item type="id" name="ads">false</item>
+    <item type="id" name="about">false</item>
+    <item type="id" name="help">false</item>
+    <item type="id" name="topic2">false</item>
+    <item type="id" name="beginner">false</item>
+    <item type="id" name="easy">false</item>
+    <item type="id" name="intermediate">false</item>
+    <item type="id" name="expert">false</item>
+    <item type="id" name="topic1">false</item>
+    <item type="id" name="enableHaptics">false</item>
+    <item type="id" name="topic">false</item>
+    <item type="id" name="reset">false</item>
+    <item type="id" name="beginnerscore">false</item>
+    <item type="id" name="easyscore">false</item>
+    <item type="id" name="intermediatescore">false</item>
+    <item type="id" name="expertscore">false</item>
+    <item type="id" name="save">false</item>
+    <item type="id" name="goback">false</item>
+</resources>
